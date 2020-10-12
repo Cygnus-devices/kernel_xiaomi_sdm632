@@ -10,5 +10,4 @@ obj-$(CONFIG_TOUCHSCREEN_GX)    +=  gt1x_test.o
 obj-$(CONFIG_TOUCHSCREEN_GX)    +=  test_function.o
 
 subdir-ccflags-y += \
-	-fno-builtin-fwrite \
-	-Wno-sizeof-pointer-div
+	-fno-builtin-fwrite
